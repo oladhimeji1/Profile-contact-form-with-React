@@ -25,13 +25,13 @@ const Contact = () =>{
 
                 <label htmlFor="message">Message</label> <br />
                 <textarea name="message" placeholder="Send me a mesage and I'll reply you a soon as possible.." id="message"></textarea>
-
+                <br />
                 <label className='comfirmaton' htmlFor="comfirmaton">
-                    <input type="checkbox" name="comfirmaton" id="comfirmaton" />
-                    You agree to providing your data to Oladhimeji who may contact you.
+                    <input type="checkbox" name="comfirmaton" id="comfirmaton" /> You 
+                    agree to providing your data to Oladhimeji who may contact you.
                 </label> <br />
 
-                <button className='btn-submit' id="btn__submit">Send message</button>
+                <button title='Send message' className='btn-submit' id="btn__submit">Send message</button>
             </form>
         </div>
     )

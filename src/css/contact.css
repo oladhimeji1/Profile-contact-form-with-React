@@ -1,9 +1,9 @@
 
 .contact-form{
-    margin: 50px auto;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 0;
     width: 60%;
-    /* border: 1px solid black; */
+    /* border: 1px solid rgb(255, 0, 0); */
 }
 .inputx, .btn-submit{
     margin: 5px 0 10px 0;
@@ -66,6 +66,9 @@
         width: 100%;
         margin: 20px 0;
     }
+    .contact-form{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 600px) {
     .input-container{
@@ -81,6 +84,12 @@
         width: 100%;
         margin: 20px 0;
     }
+    .contact-form{
+        width: 80%;
+    }
+    .comfirmaton{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 300px) {
     .inputx, #message, #email{
@@ -93,5 +102,8 @@
     .comfirmaton{
         font-size: 10px;
         margin: 20px 0;
+    }
+    .contact-form{
+        width: 80%;
     }
 }
