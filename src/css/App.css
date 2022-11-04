@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+  display: block;
+}
+#profile__img{
+  margin-top: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.btn{
+  font-size: 12px;
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  padding: 10px 20rem;
+  border-radius: 3px;
+  margin: 50px;
+}
+.btn-bg{
+  padding: 10px 18rem;
+}
+.btn-twitter{
+  padding: 10px 21rem;
+}
+.btn-zuri{
+  padding: 10px 21.3rem;
+}
+.btn-book{
+  padding: 10px 21.2rem;
+}
+.btn-python{
+  padding: 10px 20.7rem;
+}
+.btn-des{
+  padding: 10px 20.7rem;
+}
+.btn-contact{
+  padding: 10px 21rem;
+}
+@media screen and (max-width: 992px) {
+  .btn{
+    padding: 10px 13rem;
+  }
+  .btn-bg{
+    padding: 10px 11rem;
+  }
+  .btn-twitter{
+    padding: 10px 14rem;
+  }
+  .btn-zuri{
+    padding: 10px 14.3rem;
+  }
+  .btn-book{
+    padding: 10px 14.2rem;
+  }
+  .btn-python{
+    padding: 10px 13.7rem;
+  }
+  .btn-des{
+    padding: 10px 13.7rem;
+  }
+  .btn-contact{
+    padding: 10px 14rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn{
+    padding: 10px 12rem;
+  }
+  .btn-bg{
+    padding: 10px 9.6rem;
+  }
+  .btn-twitter{
+    padding: 10px 12.5rem;
+  }
+  .btn-zuri{
+    padding: 10px 12.7rem;
+  }
+  .btn-book{
+    padding: 10px 12.6rem;
+  }
+  .btn-python{
+    padding: 10px 12.2rem;
+  }
+  .btn-des{
+    padding: 10px 12.2rem;
+  }
+  .btn-contact{
+    padding: 10px 12.6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn{
+    padding: 10px 7rem;
+  }
+  .btn-bg{
+    padding: 10px 5rem;
+  }
+  .btn-twitter{
+    padding: 10px 8rem;
+  }
+  .btn-zuri{
+    padding: 10px 8.3rem;
+  }
+  .btn-book{
+    padding: 10px 8.2rem;
+  }
+  .btn-python{
+    padding: 10px 7.7rem;
+  }
+  .btn-des{
+    padding: 10px 7.7rem;
+  }
+  .btn-contact{
+    padding: 10px 8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn{
+    padding: 10px 4rem;
+  }
+  .btn-bg{
+    padding: 10px 1rem;
+  }
+  .btn-twitter{
+    padding: 10px 4rem;
+  }
+  .btn-zuri{
+    padding: 10px 4.3rem;
+  }
+  .btn-book{
+    padding: 10px 4.2rem;
+  }
+  .btn-python{
+    padding: 10px 3.7rem;
+  }
+  .btn-des{
+    padding: 10px 3.7rem;
+  }.btn-contact{
+    /* padding: 10px 12.6rem; */
+  }
+}

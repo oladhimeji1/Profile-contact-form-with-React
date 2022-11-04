@@ -1,0 +1,97 @@
+
+.contact-form{
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.inputx, .btn-submit{
+    margin: 5px 0 10px 0;
+    width: 90%;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 44);
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.input-container{
+    width: 50%;
+}
+#email{
+    margin: 5px 10px 10px 0;
+    width: 95%;
+    height: 30px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 44);
+}
+#message{
+    padding: 10px 10px;
+    height: 100px;
+    margin: 5px 10px 10px 0;
+    width: 95%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(44, 44, 44);
+}
+.btn-submit{
+    width: 98%;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    margin: 20px 0;
+}
+.btn-submit:hover{
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 150);
+    background-color: rgb(0, 0, 150);
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    .input-container{
+        width: 100%;
+    }
+    .names{
+        display: block;
+    }
+    .inputx, #message, #email{
+        width: 94%;
+    }
+    .btn-submit{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .input-container{
+        width: 100%;
+    }
+    .names{
+        display: block;
+    }
+    .inputx, #message, #email{
+        width: 94%;
+    }
+    .btn-submit{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 300px) {
+    .inputx, #message, #email{
+        width: 90%;
+    }
+    .btn-submit{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .comfirmaton{
+        font-size: 10px;
+        margin: 20px 0;
+    }
+}
