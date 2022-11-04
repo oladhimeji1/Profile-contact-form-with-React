@@ -57,9 +57,8 @@ const HomePage = () => {
         Design Books
       </a> <br /> <br />
 
-      {/* Contact link */}
-      <a href="/contact" 
-      target="_blank" title='Contact me' 
+      {/* Contact me link */}
+      <a href="/contact" title='Contact me' 
       id='contact' className='btn btn-contact' rel="noopener noreferrer">
         Contact Me
       </a> <br /> <br />

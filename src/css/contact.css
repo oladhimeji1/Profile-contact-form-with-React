@@ -6,7 +6,7 @@
     /* border: 1px solid rgb(255, 0, 0); */
 }
 .inputx, .btn-submit{
-    margin: 5px 0 10px 0;
+    margin: 5px 0 0 0;
     width: 90%;
     height: 30px;
     padding: 0 10px;
@@ -20,9 +20,13 @@
 }
 .input-container{
     width: 50%;
+    margin-bottom: 10px;
+}
+.inputx:focus, #email:focus, #message:focus{
+    border: 1px solid blue;
 }
 #email{
-    margin: 5px 10px 10px 0;
+    margin: 5px 10px 0 0;
     width: 95%;
     height: 30px;
     padding: 0 10px;
@@ -33,7 +37,7 @@
 #message{
     padding: 10px 10px;
     height: 100px;
-    margin: 5px 10px 10px 0;
+    margin: 5px 10px 0 0;
     width: 95%;
     outline: none;
     border-radius: 5px;
@@ -106,4 +110,10 @@
     .contact-form{
         width: 80%;
     }
+}
+small{
+    color: red;
+    font-size: 10px;
+    transition: ease-in 3s;
+    /* padding-bottom: 30px; */
 }
