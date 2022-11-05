@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3e86933.css",
+    "main.js": "/static/js/main.3dd8b40c.js",
+    "static/media/oladhimeji.jpg": "/static/media/oladhimeji.2280e6034ee11c7447f9.jpg",
+    "index.html": "/index.html",
+    "main.e3e86933.css.map": "/static/css/main.e3e86933.css.map",
+    "main.3dd8b40c.js.map": "/static/js/main.3dd8b40c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e86933.css",
+    "static/js/main.3dd8b40c.js"
+  ]
+}

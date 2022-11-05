@@ -1,6 +1,6 @@
 import '../css/App.css';
 import profilePic from '../img/oladhimeji.jpg'
-import slack from '../imgslackw.png'
+import slack from '../img/slackw.png'
 import github from '../github.png'
 
 const HomePage = () => {
