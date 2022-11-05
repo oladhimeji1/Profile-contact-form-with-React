@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-div{
+    width: 60%;
+    margin: 30px auto 0;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        display: block;
+    }
+    .footer-div{
+        width: 50%;
+        margin: 5px auto 0;
+    }
+    footer img{
+        margin: -5px auto;
+        height: 37px;
+    }
+}
+@media screen and (max-width: 500px) {
+    footer{
+        display: block;
+    }
+    .footer-div{
+        width: 50%;
+        margin: 5px auto 0;
+    }
+    footer img{
+        margin: -5px auto;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 300px) {
+    footer{
+        display: block;
+    }
+    .footer-div{
+        width: 50%;
+        margin: 5px auto 0;
+    }
+    footer img{
+        margin: -5px auto;
+        height: 21px;
+    }
+}
