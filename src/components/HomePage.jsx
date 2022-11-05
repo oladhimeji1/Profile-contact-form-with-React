@@ -1,5 +1,7 @@
 import '../css/App.css';
 import profilePic from '../img/oladhimeji.jpg'
+import slack from '../imgslackw.png'
+import github from '../github.png'
 
 const HomePage = () => {
   return (
@@ -62,7 +64,7 @@ const HomePage = () => {
       id='contact' className='btn btn-contact' rel="noopener noreferrer">
         Contact Me
       </a> <br /> <br />
-      
+
       <div className="logo">
         <img src={slack} alt="" />
         <img src={github} alt="" />
