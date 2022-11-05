@@ -1,7 +1,7 @@
 import '../css/App.css';
 import profilePic from '../img/oladhimeji.jpg'
 import slack from '../img/slackw.png'
-import github from '../github.png'
+import github from '../img/github.png'
 
 const HomePage = () => {
   return (
